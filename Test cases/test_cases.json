@@ -1,0 +1,44 @@
+{
+  "TestCase_id":"1",
+  "Title":"Verify that Labels field is displayed under the Filter name field",
+  "Steps":
+  {
+    "1":"Log in to the application",
+    "2":"Click on the gear menu in the right upper corner of the page",
+    "3":"Tap on the Filters",
+    "4":"Tap on the hamburger menu in the left upper corner of the page and choose the Edit option",
+    "5":"Observe a field under the Filter name field"
+  },
+  "Expected result":"Labels field is displayed under the Filter name field"
+},
+
+
+"TestCase_id":"2",
+  "Title":"Verify that the user can`t save a Filter with more than three labels ",
+  "Steps":
+  {
+    "1":"Log in to the application",
+    "2":"Click on the gear icon in the right upper corner of the page",
+    "3":"Tap on the Filters section",
+    "4":"Tap on the hamburger menu in the uppere left corner of the page and choose the Edit option",
+    "5":"Navigate to the Labels field under the Filter name field and populate this field with three labels",
+    "6":"Add the fourth value to the Labels field"
+  },
+  "Expected result":"The values of the populated labels should be visible in the Labels field. A warning notification should be displayed stating: 'Please select up to 3 labels.' The save button should be disabled."
+},
+
+{
+  "TestCase_id":"3",
+  "Title":"Verify that the user can delete added label",
+  "Steps":
+  {
+    "1":"Log in to the application",
+    "2":"Click on the gear menu in the right upper corner of the page",
+    "3":"Tap on the Filters",
+    "4":"Tap on the hamburger menu in the left upper corner of the page and choose the Edit option",
+    "5":"Navigate to the Labels field under the Filter name field,add text into the field and hit Enter",
+    "6":"Hover over a label",
+    "7":"Tap on X",
+  },
+  "Expected result":"The labels is deleted,the Labels field contains no value"
+}
