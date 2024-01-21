@@ -1,0 +1,15 @@
+{
+  "Bug_id":"1",
+  "Priority":"Hight",
+  "Summary":"The Labels field is not being displayed under the Filter name field",
+  "Steps to reproduce":
+  {
+    "1":"Log in to the application",
+    "2":"Click on the gear menu in the right upper corner of the page",
+    "3":"Tap on the Filters",
+    "4":"Tap on the hamburger menu in the left upper corner of the page and choose the Edit option",
+    "5":"Observe a field under the Filter name field"
+      },
+  "Expected result":"The Labels field should be displayed under the Filter name field",
+  "Actual result":"The Labels field is not displayed under the Filter name field"
+}
