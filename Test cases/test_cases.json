@@ -12,7 +12,7 @@
   "Expected result":"Labels field is displayed under the Filter name field"
 },
 
-
+{
 "TestCase_id":"2",
   "Title":"Verify that the user can`t save a Filter with more than three labels ",
   "Steps":
